@@ -85,4 +85,4 @@ En modo **Unitario**, los vectores se normalizan para resaltar **la dirección d
 1. Guardar el archivo como:
 
    ```text
-   InterfazCampoMagnetico.m
+   CamposMagneticos.m

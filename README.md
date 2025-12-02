@@ -57,9 +57,7 @@ La interfaz se construye con `uifigure` y componentes UI de MATLAB:
 
 La expresión del campo magnético se basa en la Ley de Biot–Savart:
 
-$$
-\vec{H}(\vec{r}) = \frac{I}{4\pi} \int \frac{d\vec{l} \times \vec{R}}{|\vec{R}|^3}
-$$
+La ley de Biot–Savart es: $\vec{H}(\vec{r}) = \frac{I}{4\pi} \int \frac{d\vec{l} \times \vec{R}}{|\vec{R}|^3}$.
 
 donde:
 

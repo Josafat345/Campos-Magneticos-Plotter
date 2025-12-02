@@ -29,7 +29,7 @@ La interfaz se construye con `uifigure` y componentes UI de MATLAB:
 - Menú desplegable para elegir el **tipo de fuente**:
   - `Espiras`
   - `Líneas`
-- Panel lateral de **⚙ Parámetros de Entrada**:
+- Panel lateral de **Parámetros de Entrada**:
   - Tamaño de malla: `Puntos XY`, `Puntos Z`
   - Factores de límite: `Factor XY`, `Factor Z`
   - Parámetros específicos según el tipo de fuente:

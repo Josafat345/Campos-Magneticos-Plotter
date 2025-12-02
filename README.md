@@ -62,11 +62,6 @@ La ley de Biot–Savart es: $\vec{H}(\vec{r}) = \frac{I}{4\pi} \int \frac{d\vec{
 donde:
 
 - $\vec{R} = \vec{r} - \vec{r}'$ es el vector desde el elemento de corriente al punto de observación.
-El cálculo del campo magnético se basa en la **Ley de Biot–Savart**:
-
-\[
-\vec{H}(\vec{r}) = \frac{I}{4\pi} \int \frac{d\vec{l} \times \vec{R}}{|\vec{R}|^3}
-\]
 
 donde:
 

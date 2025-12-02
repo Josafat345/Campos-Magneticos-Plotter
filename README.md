@@ -3,7 +3,7 @@
 Proyecto de visualización 3D del campo magnético generado por **espiras circulares** y **líneas de corriente finitas**, con una interfaz gráfica interactiva en MATLAB.
 
 -  Autor: **Josafat Vásquez**
--  Asignatura: *Teoría Electromagnética* (Proyecto: Generador de Espiras)
+-  Asignatura: *Teoría Electromagnética II* 
 
 ---
 
@@ -55,6 +55,15 @@ La interfaz se construye con `uifigure` y componentes UI de MATLAB:
 
 ## Fundamento numérico
 
+La expresión del campo magnético se basa en la Ley de Biot–Savart:
+
+$$
+\vec{H}(\vec{r}) = \frac{I}{4\pi} \int \frac{d\vec{l} \times \vec{R}}{|\vec{R}|^3}
+$$
+
+donde:
+
+- $\vec{R} = \vec{r} - \vec{r}'$ es el vector desde el elemento de corriente al punto de observación.
 El cálculo del campo magnético se basa en la **Ley de Biot–Savart**:
 
 \[
@@ -82,7 +91,7 @@ En modo **Unitario**, los vectores se normalizan para resaltar **la dirección d
 
 ---
 
-## ▶️ Cómo ejecutar
+## Cómo ejecutar
 
 1. Guardar el archivo como:
 

@@ -62,10 +62,6 @@ La ley de Biot–Savart es: $\vec{H}(\vec{r}) = \frac{I}{4\pi} \int \frac{d\vec{
 donde:
 
 - $\vec{R} = \vec{r} - \vec{r}'$ es el vector desde el elemento de corriente al punto de observación.
-
-donde:
-
-- \(\vec{R} = \vec{r} - \vec{r}'\) es el vector desde el elemento de corriente al punto de observación.
 - Para espiras:
   - Se parametriza la circunferencia con un ángulo \(\theta \in [0, 2\pi]\).
   - Se discretiza la espira en muchos puntos y se suma numéricamente el aporte de cada segmento.
